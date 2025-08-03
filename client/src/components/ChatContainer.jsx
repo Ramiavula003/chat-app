@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import assets from '../assets/assets'
 import { formatMessageTime } from '../lib/utils'
-import { AuthContext } from '../../context/AuthContext.jsx'
-import { chatContext } from '../../context/chatContext.jsx'
+import { AuthContext } from '../../context/AuthContext'
+import { chatContext } from '../../context/chatContext'
 
 const ChatContainer = () => {
 

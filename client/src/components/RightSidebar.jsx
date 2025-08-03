@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react'
 import assets from '../assets/assets'
-import { chatContext } from '../../context/chatContext.jsx'
-import { AuthContext } from '../../context/AuthContext.jsx';
+import { chatContext } from '../../context/chatContext'
+import { AuthContext } from '../../context/AuthContext';
 
 const RightSidebar = () => {
   
