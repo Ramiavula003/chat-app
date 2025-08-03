@@ -1,5 +1,5 @@
 import {createContext, useContext, useEffect, useState } from "react";
-import { AuthContext } from "./AuthContext";
+import { AuthContext } from "./AuthContext.jsx";
 import toast from "react-hot-toast";
 
 
